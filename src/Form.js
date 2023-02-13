@@ -30,6 +30,10 @@ export default function form() {
             <input type="email" required />
           </div>
           <div className="info">
+            <label htmlFor="">PatientId<span>*</span></label>
+            <input type="text" required />
+          </div>
+          <div className="info">
             <label htmlFor="">Gender<span>*</span></label>
             <select name="" id="" required>
               <option value="" selected>Choose Gender</option>
@@ -39,6 +43,7 @@ export default function form() {
           </div>
         </div>
       </div>
+      
 
       <div className="slot">
         <div className="title">
