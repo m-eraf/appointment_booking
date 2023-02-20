@@ -30,6 +30,10 @@ export default function form() {
             <input type="email" required />
           </div>
           <div className="info">
+            <label htmlFor="">City<span>*</span></label>
+            <input type="text" required />
+          </div>
+          <div className="info">
             <label htmlFor="">PatientId<span>*</span></label>
             <input type="text" required />
           </div>
