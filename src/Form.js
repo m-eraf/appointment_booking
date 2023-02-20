@@ -34,6 +34,10 @@ export default function form() {
             <input type="text" required />
           </div>
           <div className="info">
+            <label htmlFor="">BloodGroup<span>*</span></label>
+            <input type="text" required />
+          </div>
+          <div className="info">
             <label htmlFor="">Gender<span>*</span></label>
             <select name="" id="" required>
               <option value="" selected>Choose Gender</option>
